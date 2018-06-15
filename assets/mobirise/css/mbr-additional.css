@@ -4588,7 +4588,7 @@ body {
 .cid-qV1uV51MLW {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: url("../../../assets/images/mbr-1642x1080.jpg");
+  background-image: url("../../../assets/images/mbr-1080x1080.jpg");
 }
 .cid-qV1uV51MLW .mbr-section-subtitle {
   text-align: center;
@@ -4616,70 +4616,44 @@ body {
     width: 100% !important;
   }
 }
-.cid-qV1w84o5r1 {
-  padding-top: 60px;
-  padding-bottom: 30px;
+.cid-qV1E5XNejG {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/mbr-1-1080x1080.jpg");
+}
+.cid-qV1E5XNejG .card-img {
+  background-color: #fff;
+}
+.cid-qV1E5XNejG .card-box {
   background-color: #ffffff;
+  padding: 2rem;
 }
-.cid-qV1w84o5r1 .mbr-slider .carousel-control {
-  background: #1b1b1b;
+.cid-qV1E5XNejG h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
 }
-.cid-qV1w84o5r1 .mbr-slider .carousel-control-prev {
-  left: 0;
-  margin-left: 2.5rem;
+.cid-qV1E5XNejG p {
+  text-align: left;
 }
-.cid-qV1w84o5r1 .mbr-slider .carousel-control-next {
-  right: 0;
-  margin-right: 2.5rem;
+.cid-qV1E5XNejG .mbr-text {
+  color: #767676;
 }
-.cid-qV1w84o5r1 .mbr-slider .modal-body .close {
-  background: #1b1b1b;
-}
-.cid-qV1w84o5r1 .mbr-gallery-item > div::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
+.cid-qV1E5XNejG .card-wrapper {
   height: 100%;
-  background: #465052;
-  background: linear-gradient(to left, #465052, #45505b) !important;
-  opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
 }
-.cid-qV1w84o5r1 .mbr-gallery-item > div:hover .mbr-gallery-title::before {
-  background: transparent !important;
+.cid-qV1E5XNejG .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
 }
-.cid-qV1w84o5r1 .mbr-gallery-item > div:hover:before {
-  opacity: 0.2 !important;
-}
-.cid-qV1w84o5r1 .mbr-gallery-title {
-  font-size: .9em;
-  position: absolute;
-  display: block;
-  width: 100%;
-  bottom: 0;
-  padding: 1rem;
-  color: #fff;
-  z-index: 2;
-}
-.cid-qV1w84o5r1 .mbr-gallery-title:before {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  position: absolute;
-  background: #465052 !important;
-  background: linear-gradient(to left, #465052, #45505b) !important;
-  opacity: 0.2;
-  -webkit-transition: 0.2s background ease-in-out;
-  transition: 0.2s background ease-in-out;
-}
-.cid-qV1w84o5r1 .mbr-gallery-item > div > span {
-  color: #ffffff;
+@media (min-width: 992px) {
+  .cid-qV1E5XNejG .my-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
+  }
 }
 .cid-qV1uV7lYvR .navbar {
   padding: .5rem 0;
