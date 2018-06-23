@@ -4392,6 +4392,78 @@ body {
     width: 100% !important;
   }
 }
+.cid-qVNj4rchxA {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #f9f9f9;
+}
+.cid-qVNj4rchxA h2 {
+  text-align: center;
+}
+.cid-qVNj4rchxA h3 {
+  text-align: center;
+  font-weight: 300;
+}
+.cid-qVNj4rchxA p {
+  color: #767676;
+}
+.cid-qVNj4rchxA .block-content {
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+}
+.cid-qVNj4rchxA .mbr-figure {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+}
+.cid-qVNj4rchxA .media-container-row {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.cid-qVNj4rchxA .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-qVNj4rchxA .card-title {
+  font-weight: 500;
+}
+.cid-qVNj4rchxA .card-img {
+  text-align: inherit;
+}
+.cid-qVNj4rchxA .card-img span {
+  font-size: 48px;
+  color: #707070;
+}
+@media (min-width: 992px) {
+  .cid-qVNj4rchxA .mbr-figure {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-qVNj4rchxA .mbr-figure {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-qVNj4rchxA .mbr-figure {
+    padding-right: 0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .cid-qVNj4rchxA .block-content {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    text-align: center;
+  }
+  .cid-qVNj4rchxA .block-content .card {
+    flex-basis: 100%;
+    -webkit-flex-basis: 100%;
+  }
+}
 .cid-qV923U4Tum {
   padding-top: 90px;
   padding-bottom: 45px;
@@ -5588,7 +5660,7 @@ body {
 .cid-qVHVF0GPW2 {
   padding-top: 60px;
   padding-bottom: 30px;
-  background-image: url("../../../assets/images/jumbotron1.jpg");
+  background-image: url("../../../assets/images/jumbotron2.jpg");
 }
 .cid-qVHVF0GPW2 .nav-tabs .nav-item.open .nav-link:focus,
 .cid-qVHVF0GPW2 .nav-tabs .nav-link.active:focus {
