@@ -425,76 +425,74 @@ nav .mbr-section-btn {
 	left: -2400px;
 }
 
-/*Custom*/
+/*Custom Blog*/
 
-.features-block-7 {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://i.imgur.com/V4Byp6n.png");
-    background-size: cover;
-    background-position: center;
-	padding-top: 100px;
-	font-family: "Nunito", sans-serif;
-    color: #ffffff;
+* {
+    box-sizing: border-box;
 }
 
-.features-block-7 h1 {
-    font-size: 	2.625rem;
-    font-weight: 300;
-    margin-bottom: 35px;
+/* Add a gray background color with some padding */
+body {
+    font-family: Helvetica;
+    padding: 20px;
+    background: #f1f1f1;
 }
 
-.features-block-7 h2 {
-    font-size: 1.375rem;
-    font-weight: 300;
-    margin-bottom: 45px;
-    line-height: 1.5;
-    color: #c1c1c1;
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
 }
 
-.features-block-7 h3 {
-    font-size: 	1.625rem;
-    font-weight: 300;
-    margin-bottom: 20px;
-}
-
-.features-block-7 h4 {
-    font-size: 	1rem;
-    font-weight: 600;
-    margin-bottom: 35px;
-}
-
-.features-block-7 p {
-    font-size: 	1.125rem;
-    font-weight: 300;
-    margin-bottom: 55px;
-    line-height: 1.5;
-    color: #c1c1c1;
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
     width: 75%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.features-block-7 .fa {
-    font-size: 28px !important;
-    margin-bottom: 15px;
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
 }
 
-.features-block-7 .icon-1 {
-    color: #18c967;
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
 }
 
-.features-block-7 .icon-2 {
-    color: #ff0000;
+/* Add a card effect for articles */
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
 }
 
-@media (min-width: 992px) {
-    .features-block-7 h2 {
-		width: 85%;
-		margin-right: auto;
-		margin-left: auto;
-        margin-bottom: 75px;
-	}
-    
-    .features-block-7 p {
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
         width: 100%;
+        padding: 0;
     }
 }
